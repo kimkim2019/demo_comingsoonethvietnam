@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.contain {
+  background-image: linear-gradient(to right, #ffd1b0, #fbf570);
+  height: 100vh;
+}
+.contain_ether-icon {
+  position: relative;
+  width: 8em;
+}
+
+.contain_ether-icon img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, 40%);
+}
+
+.contain_coming-soon {
+  position: relative;
+}
+.contain_coming-soon h1 {
+  position: absolute;
+  left: 4.5em;
+  top: 1em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.contain_building {
+  position: relative;
+}
+
+.contain_building img {
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+}
+
+.contain_time {
+  display: flex;
+  position: absolute;
+  left: 28%;
+  top: 30%;
+}
+
+.contain_time-item {
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  background-color: #fff;
+  margin: 10px;
+  text-align: center;
+  line-height: 4em;
+}
+
+.contain_time-item span {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.contain_time-item p {
+  font-weight: 500;
+  margin-top: -1.2em;
+  font-size: 1.5em;
+}
